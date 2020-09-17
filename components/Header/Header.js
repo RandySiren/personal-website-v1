@@ -1,7 +1,7 @@
 import { useState } from 'react';
+import HamburgerMenu from 'react-hamburger-menu';
 import { motion } from 'framer-motion';
 
-import HamburgerIcon from '../HamburgerIcon/HamburgerIcon';
 import styles from './Header.module.css';
 
 const Header = () => {
@@ -20,8 +20,12 @@ const Header = () => {
                     <motion.p>Click2</motion.p>
                     <motion.p>Click3</motion.p>
                 </ul>
-                <div className={styles.HamburgerIcon}>
-                    <HamburgerIcon toggleIcon={toggleIcon} active={isActive} />
+                <div className={styles.HamburgerMenu}>
+                    <HamburgerMenu
+                        isOpen={isActive}
+                        menuClicked={toggleIcon}
+                        color={'#64ffda'}
+                    />
                 </div>
             </div>
         </>

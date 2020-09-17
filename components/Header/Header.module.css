@@ -20,17 +20,25 @@
     align-content: flex-end;
     padding-right: 10%;
     visibility: hidden;
+    opacity: 0;
     position: absolute;
 }
 
+.HamburgerMenu {
+    margin-right: 20px;
+    z-index: 999;
+}
+
 @media (min-width: 768px) {
-    .HamburgerIcon {
+    .HamburgerMenu {
         visibility: hidden;
+        opacity: 0;
         position: absolute;
     }
 
     .NavItems {
         visibility: visible;
         position: relative;
+        opacity: 1;
     }
 }
