@@ -1,0 +1,52 @@
+.Intro {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    font-family: 'Calibre-Medium';
+    font-size: calc(10px + 3vw);
+    justify-content: center;
+}
+
+.HelloText {
+    color: #64ffda;
+    font-size: calc(10px + 0.5vw);
+    margin: 5;
+    font-family: 'SFMono-Regular';
+}
+
+.Name {
+    color: #ccd6f6;
+    margin: 0;
+}
+
+.Subheading {
+    color: #8892b0;
+    margin: 0;
+}
+
+.Description {
+    color: #8892b0;
+    font-family: 'Calibre-Regular';
+    font-size: 16px;
+    margin: 20px 0 0 0;
+}
+
+@media (min-width: 768px) {
+    .Intro {
+        padding: 0 10%;
+    }
+    .Description {
+        width: 60%;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1369px) {
+    .Intro {
+        font-size: 50px;
+    }
+
+    .Description {
+        width: 50%;
+    }
+}

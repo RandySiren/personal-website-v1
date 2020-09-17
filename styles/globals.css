@@ -1,16 +1,40 @@
+@font-face {
+    font-family: Calibre-Light;
+    src: url('/fonts/Calibre/Calibre-Light.ttf');
+}
+
+@font-face {
+    font-family: Calibre-Regular;
+    src: url('/fonts/Calibre/Calibre-Regular.ttf');
+}
+
+@font-face {
+    font-family: Calibre-Medium;
+    src: url('/fonts/Calibre/Calibre-Medium.ttf');
+}
+
+@font-face {
+    font-family: Calibre-Semibold;
+    src: url('/fonts/Calibre/Calibre-Semibold.ttf');
+}
+
+@font-face {
+    font-family: SFMono-Medium;
+    src: url('/fonts/SFMono/SFMono-Medium.ttf');
+}
+@font-face {
+    font-family: SFMono-Regular;
+    src: url('/fonts/SFMono/SFMono-Regular.ttf');
+}
+@font-face {
+    font-family: SFMono-Semibold;
+    src: url('/fonts/SFMono/SFMono-Semibold.ttf');
+}
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+        Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-color: #0a192f;
 }

@@ -1,0 +1,36 @@
+.Header {
+    width: 100%;
+    height: 10vh;
+    min-height: 50px;
+    max-height: 100px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Logo {
+    padding-left: 10%;
+}
+
+.NavItems {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: flex-end;
+    padding-right: 10%;
+    visibility: hidden;
+    position: absolute;
+}
+
+@media (min-width: 768px) {
+    .HamburgerIcon {
+        visibility: hidden;
+        position: absolute;
+    }
+
+    .NavItems {
+        visibility: visible;
+        position: relative;
+    }
+}
