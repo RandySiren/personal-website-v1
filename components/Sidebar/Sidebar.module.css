@@ -1,0 +1,36 @@
+.Sidebar {
+    position: fixed;
+    width: 70%;
+    margin-right: -70%;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    transition: margin-right 0.3s;
+    background-color: #142744;
+    z-index: 998;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Active {
+    margin-right: 0%;
+}
+
+.Item {
+    color: #ccd6f6;
+    font-family: 'SFMono-Regular';
+    padding: 20px 0px;
+}
+
+.Item:hover {
+    color: #64ffda;
+}
+
+@media (min-width: 768px) {
+    .Sidebar {
+        visibility: hidden;
+        opacity: 0;
+    }
+}

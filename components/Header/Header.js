@@ -1,33 +1,49 @@
-import { useState } from 'react';
-import HamburgerMenu from 'react-hamburger-menu';
+import HamburgerIcon from 'react-hamburger-menu';
 import { motion } from 'framer-motion';
 
+import Sidebar from '../Sidebar/Sidebar';
 import styles from './Header.module.css';
 
-const Header = () => {
-    const [isActive, setActive] = useState(false);
-
-    const toggleIcon = () => {
-        setActive(!isActive);
-    };
-
+const Header = (props) => {
+    let classesLogo = [styles.Logo, props.isSidebarActive ? styles.Blur : ''];
+    let classesHeader = [
+        styles.Header,
+        props.isHeaderActive ? styles.ActiveHeader : '',
+    ];
+    const items = [
+        <span>About</span>,
+        <span>Experience</span>,
+        <span>Projects</span>,
+    ];
     return (
         <>
-            <div className={styles.Header}>
-                <motion.p className={styles.Logo}>Logo</motion.p>
+            <div className={classesHeader.join(' ')}>
+                <motion.p className={classesLogo.join(' ')}>Logo</motion.p>
                 <ul className={styles.NavItems}>
-                    <motion.p>Click1</motion.p>
-                    <motion.p>Click2</motion.p>
-                    <motion.p>Click3</motion.p>
+                    {items.map((e, index) => (
+                        <motion.div
+                            initial={{ opacity: 0, y: -50 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ delay: index / 4, duration: 0.75 }}
+                            className={styles.NavItem}
+                            key={index}
+                        >
+                            <span style={{ color: '#64ffda' }}>
+                                0{index + 1}.
+                            </span>{' '}
+                            {e}
+                        </motion.div>
+                    ))}
                 </ul>
-                <div className={styles.HamburgerMenu}>
-                    <HamburgerMenu
-                        isOpen={isActive}
-                        menuClicked={toggleIcon}
+                <div className={styles.HamburgerIcon}>
+                    <HamburgerIcon
+                        isOpen={props.isSidebarActive}
+                        menuClicked={props.setSidebarActive}
                         color={'#64ffda'}
                     />
                 </div>
             </div>
+            <Sidebar active={props.isSidebarActive} items={items} />
         </>
     );
 };

@@ -13,6 +13,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: filter 0.3s;
+}
+
+.Blur {
+    filter: blur(5px);
 }
 
 @media (min-width: 1368px) {

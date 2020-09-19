@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 
 import styles from './Intro.module.css';
 
-const Intro = ({ color }) => {
+const Intro = (props) => {
     return (
         <div className={styles.Intro}>
             <div className={styles.TextContent}>

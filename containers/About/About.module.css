@@ -1,0 +1,13 @@
+.About {
+    display: flex;
+    min-height: 400px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+    color: white;
+}
+
+.Pic {
+    flex-basis: 80%;
+}
