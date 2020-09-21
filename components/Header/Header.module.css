@@ -42,6 +42,7 @@
     position: absolute;
     color: #ccd6f6;
     font-family: 'SFMono-Regular';
+    font-size: 14px;
 }
 
 .NavItem:hover {

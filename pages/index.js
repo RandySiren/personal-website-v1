@@ -6,6 +6,7 @@ import Footer from '../components/Footer/Footer';
 
 import Intro from '../containers/Intro/Intro';
 import About from '../containers/About/About';
+import TechStack from '../containers/TechStack/TechStack';
 
 import styles from '../styles/Index.module.css';
 
@@ -48,6 +49,7 @@ const Index = () => {
             >
                 <Intro />
                 <About />
+                <TechStack />
                 <Intro />
             </div>
             <Footer />
