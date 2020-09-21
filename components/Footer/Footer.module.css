@@ -2,16 +2,20 @@
     width: 100%;
     height: 100px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 12px;
 }
 
-.footer img {
-    margin-left: 0.5rem;
+.footer p {
+    margin: 5px;
+    font-family: 'SFMono-Regular';
+    color: #ccd6f6;
+    text-align: center;
 }
 
 .footer a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-decoration: none;
+    color: #64ffda;
 }

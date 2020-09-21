@@ -2,4 +2,11 @@
     padding: 10px;
     text-align: center;
     color: #ccd6f6;
+    display: flex;
+    flex-direction: column;
+}
+
+.TechIcon img {
+    height: 96px;
+    width: 96px;
 }
