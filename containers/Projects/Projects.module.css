@@ -1,0 +1,32 @@
+.Projects {
+    display: flex;
+    min-height: 400px;
+    flex-direction: column;
+    padding: 100px 10%;
+}
+
+.Title::before {
+    content: '03. ';
+    font-size: 18px;
+    font-family: 'SFMono-Regular';
+    color: #64ffda;
+}
+
+.Title {
+    font-family: 'Calibre-Semibold';
+    font-size: 32px;
+    color: #ccd6f6;
+    padding: 20px;
+}
+
+@media (min-width: 768px) {
+    .Title::after {
+        content: '';
+        display: block;
+        height: 1px;
+        margin-top: -25px;
+        margin-left: 300px;
+        width: 200px;
+        background-color: #303c55;
+    }
+}

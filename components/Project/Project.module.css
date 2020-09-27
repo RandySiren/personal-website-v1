@@ -1,0 +1,75 @@
+.Project {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 50px 0px;
+}
+
+.Info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.Title {
+    font-family: 'Calibre-Semibold';
+    font-size: 28px;
+    color: #ccd6f6;
+    padding: 20px;
+}
+
+.Description {
+    font-family: 'Calibre-Regular';
+    color: #a1b5cd;
+    font-size: 22px;
+    width: 75%;
+    background-color: #122237;
+    padding: 20px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.Languages {
+    font-family: 'SFMono-Regular';
+    color: #64ffda;
+    font-size: 12px;
+    padding: 15px;
+}
+
+.Language {
+    margin: 5px;
+    border: 1px solid #64ffda;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: default;
+    transition: 0.25s;
+}
+
+.Language:hover {
+    filter: brightness(0.5);
+}
+
+.Project img {
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+@media (min-width: 768px) {
+    .Project {
+        flex-direction: row;
+    }
+
+    .Info {
+        width: 80%;
+    }
+    .Project img {
+        width: 70%;
+        transition: 0.25s;
+    }
+
+    .Project img:hover {
+        scale: 1.05;
+    }
+}

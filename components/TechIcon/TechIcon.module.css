@@ -9,4 +9,15 @@
 .TechIcon img {
     height: 96px;
     width: 96px;
+    align-self: center;
+}
+
+.TechIcon p {
+    text-decoration: none;
+    font-family: 'Calibre-Regular';
+}
+
+.Recolor {
+    filter: invert(90%) sepia(40%) saturate(642%) hue-rotate(84deg)
+        brightness(104%) contrast(101%);
 }

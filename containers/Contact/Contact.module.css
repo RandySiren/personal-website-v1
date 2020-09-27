@@ -30,6 +30,19 @@
     font-size: 20px;
 }
 
+.Icons {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 80%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Icons a {
+    text-decoration: none;
+}
+
 @media (min-width: 768px) {
     .Title::after {
         content: '';
@@ -43,5 +56,9 @@
 
     .Text {
         width: 70%;
+    }
+
+    .Icons {
+        flex-direction: row;
     }
 }

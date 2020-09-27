@@ -34,7 +34,7 @@
     flex-direction: row;
     justify-content: space-between;
     padding-right: 10%;
-    width: 40%;
+    width: 50%;
     min-width: 400px;
     max-width: 500px;
     visibility: hidden;
@@ -52,6 +52,15 @@
 .HamburgerIcon {
     margin-right: 20px;
     z-index: 999;
+}
+
+.Header a {
+    text-decoration: none;
+    color: #ccd6f6;
+}
+
+.Header a:hover {
+    color: #64ffda;
 }
 
 @media (min-width: 768px) {

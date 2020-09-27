@@ -10,7 +10,7 @@ const TechStack = () => {
             duration={2}
             animateOnce={true}
         >
-            <div className={styles.TechStack}>
+            <div className={styles.TechStack} id='TechStack'>
                 <div className={styles.Title}>Technology Stack</div>
                 <div className={styles.Text}>
                     Here's a list of most of the technologies I've worked with

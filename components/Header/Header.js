@@ -11,9 +11,18 @@ const Header = (props) => {
         props.isHeaderActive ? styles.ActiveHeader : '',
     ];
     const items = [
-        <span>About</span>,
-        <span>Experience</span>,
-        <span>Projects</span>,
+        <span>
+            <a href='#About'>About</a>
+        </span>,
+        <span>
+            <a href='#TechStack'>Tech Stack</a>
+        </span>,
+        <span>
+            <a href='#Projects'>Projects</a>
+        </span>,
+        <span>
+            <a href='#Contact'>Contact</a>
+        </span>,
     ];
     return (
         <>

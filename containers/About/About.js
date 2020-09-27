@@ -3,7 +3,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 const About = (props) => {
     return (
-        <div className={styles.About}>
+        <div className={styles.About} id='About'>
             <div className={styles.Pic}>
                 <ScrollAnimation
                     animateIn='animate__slideInLeft'
