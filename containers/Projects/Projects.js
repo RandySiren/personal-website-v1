@@ -19,13 +19,21 @@ const Projects = () => {
                         '
                         languages={['TypeScript', 'React', 'OSRSBox API']}
                         src={'/images/osrs-gear.png'}
+                        url={'https://osrs-gear.herokuapp.com'}
                     />
                     <Project
                         title='TutorHub'
                         description='Social platform for tutors and students for Ontario universities to teach specific courses and find students/tutors. Includes tutor verification and fully fledged social media profiles.
                         '
-                        languages={['TypeScript', 'React', 'OSRSBox API']}
+                        languages={['JavaScript', 'Express/Node.js']}
                         src={'/images/tutorhub.png'}
+                    />
+                    <Project
+                        title='Library Server-Client App'
+                        description='Server and Client setup to add books to library to a centralized server with a detailed and user friendly GUI. Uses Swing and Socket API.'
+                        languages={['Java']}
+                        src={'/images/client-server-app.png'}
+                        url={'https://github.com/RandySiren/CP372-A1'}
                     />
                 </div>
             </div>
