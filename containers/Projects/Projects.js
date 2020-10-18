@@ -31,9 +31,9 @@ const Projects = () => {
                     <Project
                         title='Library Server-Client App'
                         description='Server and Client setup to add books to library to a centralized server with a detailed and user friendly GUI. Uses Swing and Socket API.'
-                        languages={['Java']}
+                        languages={['Java','Swing', 'Sockets']}
                         src={'/images/client-server-app.png'}
-                        url={'https://github.com/RandySiren/CP372-A1'}
+                        url={'https://github.com/RandySiren/Client-Server-Book-Database'}
                     />
                 </div>
             </div>
