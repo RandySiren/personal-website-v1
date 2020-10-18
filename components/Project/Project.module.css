@@ -35,6 +35,8 @@
     color: #64ffda;
     font-size: 12px;
     padding: 15px;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .Language {
