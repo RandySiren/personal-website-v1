@@ -22,7 +22,7 @@ const About = (props) => {
                     <div className={styles.Title}>About Me</div>
                     <div className={styles.Text}>
                         <p>
-                            Hello! I'm Manny, a software engineer based in
+                            Hello! I'm Manny (as I usually go by), a software engineer based in
                             Toronto, ON.
                         </p>
                         <p>
