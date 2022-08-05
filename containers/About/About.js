@@ -32,11 +32,11 @@ const About = (props) => {
               it's been a my passion for over a decade now.
             </p>
             <p>
-              I'm graduated from Wilfrid Laurier
+              I've graduated from Wilfrid Laurier
               University's Comp Sci. program and probably working at the last position on my LinkedIn. I've worked with various clients and personal connections
               creating meaningful products from websites for their
               business to automation scripts for their personal
-              needs.
+              needs. At this point I've done a lot more so just ask me. :)
             </p>
           </div>
         </ScrollAnimation>
